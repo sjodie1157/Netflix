@@ -46,3 +46,7 @@ img[alt=youtube] {
     width: 2em;
 }
 
+#carouselExampleAutoplaying {
+    padding: 2em;
+    margin: 2em;
+}
