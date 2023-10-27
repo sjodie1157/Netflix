@@ -1,0 +1,10 @@
+@media screen and (width<720px) { 
+    #font-q li, h7 {
+        transition: all 0.3s;
+        font-size: 0.5em;
+    }
+
+    img[alt=facebook], img[alt=instagram], img[alt=twitter], img[alt=youtube] {
+        width: 0.8em;
+    }
+}

@@ -2,6 +2,10 @@ body {
     height: 200vh;
 }
 
+main {
+    height: 200vh;
+}
+
 img[alt=logo] {
     height: 65px;
 }
@@ -13,3 +17,32 @@ img[alt=logo] {
 .list ul {
     position: absolute;
 }
+
+img[alt=facebook] {
+    position: relative;
+    top: 1em;
+    left: 3em;
+    width: 2em;
+}
+
+img[alt=instagram] {
+    position: relative;
+    top: 1em;
+    left: 5em;
+    width: 2em;
+}
+
+img[alt=twitter] {
+    position: relative;
+    top: 1em;
+    left: 7em;
+    width: 2em;
+}
+
+img[alt=youtube] {
+    position: relative;
+    top: 1em;
+    left: 9em;
+    width: 2em;
+}
+
