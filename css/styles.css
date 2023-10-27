@@ -1,0 +1,15 @@
+body {
+    height: 200vh;
+}
+
+img[alt=logo] {
+    height: 65px;
+}
+
+.list {
+    position: relative;
+}
+
+.list ul {
+    position: absolute;
+}

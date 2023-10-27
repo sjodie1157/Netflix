@@ -4,12 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css linked page -->
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <!-- css bootstrap page -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Login Netflix</title>
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/Logonetflix.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">Tv Shows</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">Movies</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#">My List</a>
+              </li>
+            </ul>
+            <span class="navbar-text text-white">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <form class="d-flex mx-2 d-lg-none" role="search">
+                            <input class="form-control me-2 bg-dark-subtle" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-danger" type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white d-none d-sm-block" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-white" href="#">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white d-none d-sm-block" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                      </svg></a>
+                    </li>
+                    <li>
+                        <div class="list">
+                            <a class="nav-link dropdown-toggle text-white mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Log in account
+                            </a>
+                            <ul class="dropdown-menu justify bg-black">
+                                <li><a class="dropdown-item text-danger" href="#">Account 1</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Account 2</a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Account 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </span>
+          </div>
+        </div>
+    </nav>
+    
     <!-- JS bootstrap page -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
