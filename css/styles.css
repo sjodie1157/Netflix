@@ -1,10 +1,4 @@
-body {
-    height: 200vh;
-}
 
-main {
-    height: 200vh;
-}
 
 img[alt=logo] {
     height: 65px;
@@ -46,7 +40,8 @@ img[alt=youtube] {
     width: 2em;
 }
 
-#carouselExampleAutoplaying {
-    padding: 2em;
-    margin: 2em;
+img[alt=movie] {
+    width:  11.5em;
+    height: 8em;
+    margin: .20em;
 }
